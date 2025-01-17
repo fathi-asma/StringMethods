@@ -34,16 +34,16 @@ public class stringManipulationPart1{
 		Scanner input = new Scanner(System.in);
 		
 		// prompt the user for input
-		System.out.print("Enter a string:");
+		System.out.print("Enter a string: ");
 		String inputString = input.nextLine();
 		
-		System.out.print("Enter the start index for slicing:");
+		System.out.print("Enter the start index for slicing: ");
 		int start = input.nextInt();
 		
-		System.out.print("Enter the end index for slicing:");
+		System.out.print("Enter the end index for slicing: ");
 		int end = input.nextInt();
 		
-		System.out.print("Enter a character to find:");
+		System.out.print("Enter a character to find: ");
 		char findChar = input.next().charAt(0);
 		
 		System.out.println();
@@ -56,10 +56,8 @@ public class stringManipulationPart1{
 		System.out.println("Sliced String: " + sliced);
 		
 		int index = indexOf(inputString, findChar);
-		System.out.println("Index of'"+ findChar + "':" +index);
+		System.out.println("Index of '" + findChar+"':" +index);
 		
 		input.close ();
 	}
 }
-
-		
