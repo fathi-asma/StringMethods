@@ -56,7 +56,7 @@ public class stringManipulationPart1{
 		System.out.println("Sliced String: " + sliced);
 		
 		int index = indexOf(inputString, findChar);
-		System.out.println("Index of '" + findChar+"':" +index);
+		System.out.println("Index of '" + findChar + "':" +index);
 		
 		input.close ();
 	}
